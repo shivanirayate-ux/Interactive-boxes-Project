@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bundle & Save Boxes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="header">Bundle & Save</h2>
+      <div class="box" data-id="1">
+        <label class="box-row">
+          <input type="radio" name="bundle" class="bundle-radio" />
+          <div class="box-content">
+            <div class="box-left">
+              <strong>1 Pair</strong>
+              <p class="price">DKK 195.00</p>
+            </div>
+            <div class="box-right">
+              <span class="tag">50% OFF</span>
+            </div>
+          </div>
+        </label>
+        <div class="options">
+          <div class="option-header">
+            <span></span>
+            <span>Size</span>
+            <span>Colour</span>
+          </div>
+          <div class="option-row">
+            <span>#1</span>
+            <select class="option-select">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select class="option-select">
+              <option>Colour</option>
+              <option>Black</option>
+              <option>White</option>
+            </select>
+          </div>
+          <div class="option-row">
+            <span>#2</span>
+            <select class="option-select">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select class="option-select">
+              <option>Colour</option>
+              <option>Black</option>
+              <option>White</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="box selected" data-id="2">
+        <label class="box-row">
+          <input type="radio" name="bundle" class="bundle-radio" checked />
+          <div class="box-content">
+            <div class="box-left">
+              <strong>2 Pair</strong>
+              <p class="price">DKK 345.00</p>
+            </div>
+            <div class="box-center">
+              <span class="old-price">DKK 195.00</span>
+            </div>
+
+            <div class="box-right">
+              <span class="tag">
+                <span class="most-popular">Most Popular</span><br />
+                40% OFF
+              </span>
+            </div>
+          </div>
+        </label>
+
+        <div class="options">
+          <div class="option-header">
+            <span></span>
+            <span>Size</span>
+            <span>Colour</span>
+          </div>
+          <div class="option-row">
+            <span>#1</span>
+            <select class="option-select">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select class="option-select">
+              <option>Colour</option>
+              <option>Black</option>
+              <option>White</option>
+            </select>
+          </div>
+          <div class="option-row">
+            <span>#2</span>
+            <select class="option-select">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select class="option-select">
+              <option>Colour</option>
+              <option>Black</option>
+              <option>White</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="box" data-id="3">
+        <label class="box-row">
+          <input type="radio" name="bundle" class="bundle-radio" />
+          <div class="box-content">
+            <div class="box-left">
+              <strong>3 Pair</strong>
+              <p class="price">DKK 528.00</p>
+            </div>
+            <div class="box-right">
+              <span class="tag">60% OFF</span>
+            </div>
+          </div>
+        </label>
+        <div class="options">
+          <div class="option-header">
+            <span></span>
+            <span>Size</span>
+            <span>Colour</span>
+          </div>
+          <div class="option-row">
+            <span>#1</span>
+            <select class="option-select">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select class="option-select">
+              <option>Colour</option>
+              <option>Black</option>
+              <option>White</option>
+            </select>
+          </div>
+          <div class="option-row">
+            <span>#2</span>
+            <select class="option-select">
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select class="option-select">
+              <option>Colour</option>
+              <option>Black</option>
+              <option>White</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="summary">
+        <span class="free">Free 2 Day Shipping</span>
+        <span class="total"
+          >Total: <strong>DKK 360.00</strong></span
+        >
+      </div>
+      <button class="cart-btn">+ Add to Cart</button>
+      <footer class="footer">@Powered By Pumper</footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
